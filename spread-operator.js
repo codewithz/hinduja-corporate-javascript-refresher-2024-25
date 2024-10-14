@@ -40,3 +40,11 @@ console.log("Original :",grades)
 const sorted=[...grades].sort()
 console.log("Sorted:",sorted)
 console.log("Original :",grades)
+
+// Spread Operator with Objects
+
+const name={name:"Zartab"}
+const profession={job:'Corporate Trainer'}
+
+const combinedObject={...name,color:'Black',...profession}
+console.log(combinedObject)
